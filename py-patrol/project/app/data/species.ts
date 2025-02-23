@@ -1,0 +1,58 @@
+import { Species } from '../types';
+
+export const species: Species[] = [
+  {
+    id: '1',
+    name: 'Burmese Python',
+    scientificName: 'Python bivittatus',
+    description: 'One of the largest species of snakes in the world. These invasive constrictors pose a significant threat to native wildlife.',
+    imageUrl: 'https://i.imgur.com/wQbsOgH.jpg',
+    heatmapUrl: 'https://i.imgur.com/DD1HyoL.jpg',
+    dangerLevel: 'high',
+  },
+  {
+    id: '2',
+    name: 'Feral Hogs',
+    scientificName: 'Sus scrofa',
+    description: 'Highly destructive to native ecosystems, these invasive pigs damage crops and native vegetation.',
+    imageUrl: 'https://i.imgur.com/VMNLcBj.jpg',
+    heatmapUrl: 'https://i.imgur.com/RbUp91t.jpg',
+    dangerLevel: 'high',
+  },
+  {
+    id: '3',
+    name: 'Cane Toads',
+    scientificName: 'Rhinella marina',
+    description: 'Toxic amphibians that pose a threat to native wildlife and pets.',
+    imageUrl: 'https://i.imgur.com/Fu5zqat.jpg',
+    heatmapUrl: 'https://i.imgur.com/CBBF0BC.jpg',
+    dangerLevel: 'medium',
+  },
+  {
+    id: '4',
+    name: 'Green Iguana',
+    scientificName: 'Iguana iguana',
+    description: 'Large lizards that damage vegetation and infrastructure.',
+    imageUrl: 'https://i.imgur.com/2S1My1f.jpg',
+    heatmapUrl: 'https://i.imgur.com/Stz3ozV.jpg',
+    dangerLevel: 'medium',
+  },
+  {
+    id: '5',
+    name: 'Argentine Black and White Tegu',
+    scientificName: 'Salvator merianae',
+    description: 'Large lizards that prey on native species and their eggs.',
+    imageUrl: 'https://i.imgur.com/YtNFbDR.jpg',
+    heatmapUrl: 'https://i.imgur.com/HROwtVT.jpg',
+    dangerLevel: 'high',
+  },
+  {
+    id: '6',
+    name: 'Giant African Land Snail',
+    scientificName: 'Lissachatina fulica',
+    description: 'Destructive mollusks that damage crops and can carry parasites.',
+    imageUrl: 'https://i.imgur.com/tOKtccR.jpg',
+    heatmapUrl: 'https://i.imgur.com/pVoUO2q.jpg',
+    dangerLevel: 'medium',
+  },
+];
